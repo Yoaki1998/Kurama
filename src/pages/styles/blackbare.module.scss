@@ -1,0 +1,36 @@
+.blackzone {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigbutton {
+  width: 270px;
+  height: 62px;
+  color: white;
+  background-color: #EB4A4A ;
+  border: none;
+  border-radius: 3px;
+  margin-left: 25px;
+  margin-right: 25px ;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 67%;
+}
+
+.side {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  white-space: pre-wrap; ;
+}
