@@ -1,4 +1,19 @@
 .footerzone {
-  background-color: gray;
+  background-color: #fdf1eb;
   height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.column {
+  margin-top: 70px;
+
+  h1{
+    font-size: 22px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
 }
