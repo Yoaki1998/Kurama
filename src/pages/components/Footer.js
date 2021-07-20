@@ -21,7 +21,6 @@ const Footer = () => {
           <li>Mission</li>
           <li>Service</li>
           <li>Social</li>
-          <li>Get in touch</li>
         </ul>
       </div>
 

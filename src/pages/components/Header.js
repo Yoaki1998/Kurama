@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className={headerStyle.imagezone}>
       <div className={headerStyle.container}>
-        <div className={headerStyle.title} >We sell Air since 1998 in the whole World</div>
+        <div className={headerStyle.title} >We promoting investment Worldwide since 1998</div>
         <button className={headerStyle.bigbutton}>Get Started</button>
       </div>
     </div>
