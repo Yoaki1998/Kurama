@@ -9,12 +9,22 @@ import PlanZone from "./components/PlanZone";
 import './styles/index.scss'
 
 const index = () => {
+
+
+  const handleClick = () => {
+    window.scrollTo({
+      top: 2217,
+      behavior: "smooth"
+    })
+  }
+
+
   return (
     <Fragment>
-      <Navbar />
-      <Header />
+      <Navbar handleClick={handleClick} />
+      <Header handleClick={handleClick} />
       <FirstSection />
-      <BlackBare />
+      <BlackBare handleClick={handleClick} />
       <MintosZone />
       <PlanZone />
       <Footer />

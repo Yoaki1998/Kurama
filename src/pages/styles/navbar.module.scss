@@ -27,6 +27,12 @@
   border-radius: 2px;
   margin-left: 65px;
   margin-right: 25px ;
+  transition: 0.3s ;
+}
+
+.button:hover{
+  background-color: #dd2424;
+  transition: 0.3s ;
 }
 
 .title {

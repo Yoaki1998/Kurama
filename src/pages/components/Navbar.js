@@ -2,7 +2,10 @@ import React from 'react'
 
 import * as navbarStyle from '../styles/navbar.module.scss'
 
-const Navbar = () => {
+const Navbar = ({ handleClick }) => {
+
+
+
   return (
     <div className={navbarStyle.navbar}>
       <div className={navbarStyle.container}>
@@ -10,7 +13,7 @@ const Navbar = () => {
         <div className={navbarStyle.login}>LOGIN</div>
       </div>
 
-      <button className={navbarStyle.button} >Get Started</button>
+      <button onClick={handleClick} className={navbarStyle.button} >Get Started</button>
     </div>
   )
 }
