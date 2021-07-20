@@ -1,7 +1,7 @@
 import React from 'react'
 import * as blackStyle from "../styles/blackbare.module.scss"
 
-const Blackbare = () => {
+const BlackBare = () => {
   return (
     <div className={blackStyle.blackzone} >
       <div className={blackStyle.container} >
@@ -13,4 +13,4 @@ const Blackbare = () => {
   )
 }
 
-export default Blackbare
+export default BlackBare
